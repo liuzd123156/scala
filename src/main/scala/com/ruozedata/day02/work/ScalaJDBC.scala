@@ -12,7 +12,7 @@ object ScalaJDBC {
   def main(args: Array[String]): Unit = {
 
     //解析application.conf的文件。
-    DBs.setup('ruozedata)
+    DBs.setup('ruozedata)//ruozedata对应的是配置文件的db.xx.driver,这里xx一定要和ruozedata对应
     //和DBs.setup('default)等价
 
     val userList:List[User] = List(User(101,"zhangsan",21),User(102,"lisi",22))
