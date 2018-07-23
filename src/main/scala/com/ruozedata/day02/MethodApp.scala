@@ -3,6 +3,8 @@ package com.ruozedata.day02
 object MethodApp {
     /*
         def  方法名(参数列表):返回结果类型={方法体}，如果有返回值，需放到最后一行
+        访问方法：
+            1) 无参数可以直接方法名()或者方法名访问（注意类和对象的区别）,变长参数的方法不带参数也需要括号
      */
     def main(args: Array[String]): Unit = {
         method1()//无参数可以带括号访问或者不带括号访问
