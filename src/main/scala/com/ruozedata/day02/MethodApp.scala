@@ -1,5 +1,8 @@
 package com.ruozedata.day02
 
+/*
+    方法定义、使用示范
+ */
 object MethodApp {
     /*
         def  方法名(参数列表):返回结果类型={方法体}，如果有返回值，需放到最后一行

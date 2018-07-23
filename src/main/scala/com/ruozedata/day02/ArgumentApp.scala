@@ -1,5 +1,7 @@
 package com.ruozedata.day02
-
+/*
+    参数相关示范
+ */
 object ArgumentApp {
     def main(args: Array[String]): Unit = {
         method1()//打印结果：默认参数

@@ -1,5 +1,8 @@
 package com.ruozedata.day02
 
+/*
+    to  until  Range使用示范
+ */
 object ToUntilRangeApp {
     def main(args: Array[String]): Unit = {
         /*

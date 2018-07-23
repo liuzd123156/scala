@@ -1,8 +1,11 @@
-package com.ruozedata
+package com.ruozedata.day02.work
 
 import scalikejdbc._
 import scalikejdbc.config.DBs
 
+/*
+    使用scalikejdbc插件操作数据库
+ */
 case class User(id: Int, name: String, age: Int)
 object ScalaJDBC {
 
