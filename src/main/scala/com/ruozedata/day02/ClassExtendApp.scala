@@ -17,7 +17,7 @@ object ClassExtendApp {
         girl.show("")
     }
 }
-class People(val name:String,val age:Int){//添加修饰符val、var的参数会默认生成get和set方法，new对象之后可以通过对象.属性的方式操作使用属性
+class People(val name:String,val age:Int){//添加修饰符val、var的参数会默认生成get和set(val没有set)方法，new对象之后可以通过对象.属性的方式操作使用属性
     val heigth:Double = 0
     def show(): Unit ={
         println(name+" "+age+" "+heigth)
