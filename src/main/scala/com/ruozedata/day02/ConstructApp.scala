@@ -1,5 +1,8 @@
 package com.ruozedata.day02
 
+/**
+  * 构造器使用示范
+  */
 object ConstructApp {
     def main(args: Array[String]): Unit = {
         val animal = new Animal("构造器","主")
@@ -46,7 +49,7 @@ class Animal(name:String,tp:String){
     }
 
     def this(name:String,tp:String,test:Int){//test作为没有在类中定义的属性，所以没法当成字段使用
-        this(tp1+name,tp)
+        this(tp+name,tp)
         println(test)
     }
 
