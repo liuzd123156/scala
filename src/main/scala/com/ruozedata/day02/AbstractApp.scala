@@ -16,10 +16,10 @@ abstract class Person{//抽象类abstract关键字，包括至少一个未实现
 }
 
 class Boy extends Person {
-    override val name: String = ""//抽象类继承实现父类的属性和方法不需要强制加上override
-    override val age: Int = 0
+    this.name = "1"//
+    override val age: Int = 0//抽象类继承实现父类的属性和方法不需要强制加上override
 
-    override def show: Unit = {
-        println("Boy show")
+    def show: Unit = {
+        println("Boy show "+name+"  "+age)
     }
 }
