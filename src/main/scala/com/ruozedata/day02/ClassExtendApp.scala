@@ -18,7 +18,7 @@ object ClassExtendApp {
         girl.show("")
     }
 }
-class People(val name:String,val age:Int){//添加修饰符val、var的参数会默认生成get和set(val没有set)方法，new对象之后可以通过对象.属性的方式操作使用属性
+class People(val name:String,val age:Int){//添加修饰符val、var的参数会默认生成共有的get和set(val没有set)方法，new对象之后可以通过对象.属性的方式操作使用属性
     var weight:Double = _//var修饰的属性，不能在子类中override关键字修饰，即不能覆盖重写
     val heigth:Double = 0 //val修饰的属性，如果在子类中重写，必须用override关键字修饰
     def show(): Unit ={
