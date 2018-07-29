@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef22176c-c2c9-4e3a-8780-4b92686dc8bf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/ruozedata/day04/CaseMatchApp.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/ruozedata/day04/HigherOrderFunctionApp.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/ruozedata/day04/PartinalFunctionApp.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/ruozedata/day04/work/WordCount.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/ruozedata/day05/ImplicitApp.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruozedata/HelloWorld$$anonfun$sum$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruozedata/HelloWorld$.class" afterPath="$PROJECT_DIR$/target/classes/com/ruozedata/HelloWorld$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruozedata/HelloWorld.class" afterPath="$PROJECT_DIR$/target/classes/com/ruozedata/HelloWorld.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -460,7 +452,7 @@
       <workItem from="1532481642673" duration="17535000" />
       <workItem from="1532517325934" duration="11170000" />
       <workItem from="1532604019641" duration="7188000" />
-      <workItem from="1532697217792" duration="13693000" />
+      <workItem from="1532697217792" duration="14308000" />
     </task>
     <task id="LOCAL-00001" summary="添加注释">
       <created>1532328576362</created>
@@ -539,11 +531,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532495307695</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="修订">
+      <created>1532865628786</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532865628786</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144545000" />
+    <option name="totallyTimeSpent" value="145160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
