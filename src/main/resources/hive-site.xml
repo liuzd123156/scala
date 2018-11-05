@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+    <property>
+        <!-- hive访问数据的位置，一般放于hdfs上，"hive.metastore.warehouse"
+        是spark 1.x 版本使用的参数，在spark 2.0.1 中，该参数已经不再生效，
+        用户应使用 spark.sql.warehouse.dir=hdfs://HOSTNAME:9000/user/hive/warehouse 命令进行代替-->
+        <name>spark.sql.warehouse.dir</name>
+        <value>hdfs://192.168.205.131:9000/user/hive/warehouse</value>
+    </property>
+
+	<property>
+		<name>javax.jdo.option.ConnectionURL</name>
+		<value>jdbc:mysql://192.168.205.131:3306/hive?createDatabaseIfNotExist=true</value>
+	</property>
+	
+	<property>
+		<name>javax.jdo.option.ConnectionDriverName</name>
+		<value>com.mysql.jdbc.Driver</value>
+	</property>
+
+	<property>
+		<name>javax.jdo.option.ConnectionUserName</name>
+		<value>root</value>
+	</property>
+
+	<property>
+		<name>javax.jdo.option.ConnectionPassword</name>
+		<value>root</value>
+	</property>
+
+</configuration>

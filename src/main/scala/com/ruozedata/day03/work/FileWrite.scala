@@ -10,7 +10,7 @@ import scala.util.Random
 object FileWrite {
     def main(args: Array[String]): Unit = {
         val writer = new PrintWriter(new File("D:/test.txt"))
-        for(i<-1 to 1000){
+        for(i<-1 to 10000){
             if(i%100==0){
                 writer.println(mkLine("'"))
             }else{
@@ -24,7 +24,8 @@ object FileWrite {
         val net = Array("www.ruozedata.com","www.zhibo8.com","www.dongqiudi.com")
         var sdf = new SimpleDateFormat("'['yyyy-MM-dd HH:mm:ss']'")
         val date = new Date()
-        val result = net(getRandomInt(3))+"\t"+getRandomInt(5000)+error+"\t"+sdf.format(date)
+        val net_id = getRandomInt(3)
+        val result = net(net_id)+"\t"+getRandomInt(5000)+error+"\t"+sdf.format(date)+"\t"+net(net_id)+"_"+getRandomInt(50)
         result
     }
 

@@ -67,6 +67,7 @@ object ArrayApp {
         println("max:"+c.max)
         println("min:"+c.min)
 
+
     }
 
     def showArrayBuffer[T:ClassTag](array:ArrayBuffer[T]): Unit ={

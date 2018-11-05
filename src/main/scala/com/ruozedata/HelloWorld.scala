@@ -7,7 +7,9 @@ import scala.util.Random
 
 object HelloWorld {
   def main(args:Array[String]){
-      println(mkLine("'"))
+      for(i<-1 to 100){
+          println(getRandomInt(3))
+      }
   }
 
     def mkLine(error:String):String={
